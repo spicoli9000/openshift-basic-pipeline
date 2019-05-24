@@ -304,9 +304,8 @@ parameters:
 - description: Github trigger secret.  A difficult to guess string encoded as part
     of the webhook URL.  Not encrypted.
   displayName: GitHub Webhook Secret
-  from: '[a-zA-Z0-9]{40}'
-  generate: expression
   name: GITHUB_WEBHOOK_SECRET
+  value: changeme
 - displayName: Database Service Name
   name: DATABASE_SERVICE_NAME
   required: true
@@ -320,6 +319,6 @@ parameters:
   required: true
   value: product
 - displayName: Database Password
-  from: '[a-zA-Z0-9]{16}'
-  generate: expression
   name: DATABASE_PASSWORD
+  required: true
+  value: changeme2
