@@ -21,7 +21,7 @@ spec:
   source:
     type: Git
     git:
-      uri: 'https://github.com/gnunn1/openshift-basic-pipeline'
+      uri: 'https://github.com/spicoli9000/openshift-basic-pipeline'
       ref: master
   strategy:
     type: JenkinsPipeline
